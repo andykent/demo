@@ -1,7 +1,7 @@
 pipeline:
   - name: Pre Build
-    action: rake prebuild
+    command: rake prebuild
   - name: Test
-    action: rake spec
+    command: rake spec
   - name: Deploy
-    action: rake deploy
+    command: rake deploy
