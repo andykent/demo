@@ -1,0 +1,11 @@
+task :prebuild do
+    puts 'prebuild'
+end
+
+task :spec do
+    puts 'spec'
+end
+
+task :deploy do
+    puts 'deploy'
+end
