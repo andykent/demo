@@ -4,6 +4,7 @@ end
 
 task :spec do
     puts 'spec'
+    raise
 end
 
 task :deploy do
