@@ -1,9 +1,9 @@
 pipeline:
   - name: Pre Build
-    command: rake prebuild
+    command: rake prebuild --trace
   - name: Migrate
-    command: rake prebuild
+    command: rake prebuild --trace
   - name: Test
-    command: rake spec
+    command: rake spec --trace
   - name: Deploy
-    command: rake deploy
+    command: rake deploy --trace
